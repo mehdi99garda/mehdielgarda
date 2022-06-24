@@ -68,7 +68,10 @@
               </ul>
             </div>
             <div class="copyright-text">
-              <p>Copyright © 2021 El Mehdi El Garda</p>
+              <p>Copyright © <span id="current_year"></span> El Mehdi El Garda</p>
+              <script type="text/javascript">
+                document.getElementById("current_year").innerHTML = new Date().getFullYear();
+            </script>
             </div>
           </div>
         </div>
